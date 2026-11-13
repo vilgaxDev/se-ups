@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Solid Background for Maskable Icon -->
+  <rect width="512" height="512" fill="#146B50"/>
+  
+  <!-- Centered Graphic with safe padding -->
+  <g transform="translate(64, 64) scale(0.75)">
+    <!-- Stylized ID Card Emblem -->
+    <rect x="100" y="140" width="312" height="232" rx="28" fill="#FFFFFF"/>
+    <rect x="100" y="140" width="312" height="232" rx="28" stroke="#D6F36A" stroke-width="8"/>
+
+    <!-- User Silhouette in Chip -->
+    <rect x="136" y="176" width="64" height="74" rx="12" fill="#E8F4ED"/>
+    <circle cx="168" cy="202" r="16" fill="#146B50"/>
+    <path d="M148 240 C148 226 188 226 188 240" stroke="#146B50" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Identity text representation -->
+    <rect x="224" y="180" width="144" height="14" rx="7" fill="#123C30"/>
+    <rect x="224" y="206" width="112" height="10" rx="5" fill="#627168"/>
+    <rect x="224" y="228" width="80" height="10" rx="5" fill="#89968E"/>
+
+    <!-- Kenyan Flag Accent Strip -->
+    <rect x="136" y="278" width="240" height="6" rx="3" fill="#123C30"/>
+    <rect x="136" y="294" width="160" height="12" rx="6" fill="#E8F4ED"/>
+    <rect x="136" y="316" width="200" height="10" rx="5" fill="#E3EAE4"/>
+
+    <!-- Verification Badge -->
+    <circle cx="376" cy="340" r="46" fill="#D6F36A" stroke="#123C30" stroke-width="6"/>
+    <path d="M360 340 L372 352 L394 330" stroke="#123C30" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

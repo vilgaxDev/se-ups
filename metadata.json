@@ -1,0 +1,6 @@
+{
+  "name": "Pata ID — Kenyan Digital Identity Recovery Platform",
+  "description": "A secure, mobile-first Kenyan digital identity recovery platform connecting finders of lost national ID cards with their rightful owners via verified M-Pesa contact unlocking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

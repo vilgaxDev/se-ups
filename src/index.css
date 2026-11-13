@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-emerald: #146B50;
+  --color-brand-forest: #123C30;
+  --color-brand-green-rich: #0E5841;
+  --color-brand-emerald-bright: #19865F;
+  --color-brand-emerald-soft: #E8F4ED;
+
+  --color-brand-lime: #D6F36A;
+  --color-brand-lime-soft: #EDF8C9;
+  --color-brand-ivory: #F5F8F3;
+  --color-brand-surface: #FFFFFF;
+
+  --color-brand-text-primary: #17251F;
+  --color-brand-text-secondary: #627168;
+  --color-brand-text-muted: #89968E;
+
+  --color-brand-border: #E3EAE4;
+  --color-brand-border-soft: #EDF1ED;
+
+  --color-brand-success: #167447;
+  --color-brand-warning: #A96B19;
+  --color-brand-error: #C13F43;
+  --color-brand-info: #326D9A;
+
+  --font-sans: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --color-emerald-primary: #146B50;
+  --color-forest-deep: #123C30;
+  --color-green-rich: #0E5841;
+  --color-emerald-bright: #19865F;
+  --color-emerald-soft: #E8F4ED;
+
+  --color-lime-fresh: #D6F36A;
+  --color-lime-soft: #EDF8C9;
+  --color-ivory-warm: #F5F8F3;
+  --color-white-pure: #FFFFFF;
+
+  --color-text-primary: #17251F;
+  --color-text-secondary: #627168;
+  --color-text-muted: #89968E;
+
+  --color-border-main: #E3EAE4;
+  --color-border-soft: #EDF1ED;
+  --color-card-surface: #FFFFFF;
+  --color-subtle-surface: #F5F8F3;
+
+  --color-success: #167447;
+  --color-warning: #A96B19;
+  --color-error: #C13F43;
+  --color-info: #326D9A;
+}
+
+/* Custom scrollbar and smooth transitions */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F8F3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E3EAE4;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #89968E;
+}
+
+/* iOS safe-area support */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
+
+.safe-top {
+  padding-top: env(safe-area-inset-top, 16px);
+}
+
+/* Subtle elevation and card surface rules */
+.card-elevation {
+  box-shadow: 0 1px 3px 0 rgba(18, 60, 48, 0.04), 0 1px 2px -1px rgba(18, 60, 48, 0.04);
+}
+
+.card-elevation-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-elevation-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px 0 rgba(18, 60, 48, 0.08), 0 2px 4px -2px rgba(18, 60, 48, 0.04);
+}

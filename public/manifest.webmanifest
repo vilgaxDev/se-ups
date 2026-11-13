@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Pata ID — Kenyan Digital Identity Recovery Platform",
+  "short_name": "Pata ID",
+  "description": "Secure Kenyan digital identity recovery connecting finders of lost national ID cards with rightful owners.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#146B50",
+  "background_color": "#F5F8F3",
+  "categories": ["utilities", "government", "productivity"],
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
